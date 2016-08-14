@@ -13,7 +13,11 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "flask app kit generator",
+    "python",
+    "web",
+    "flask",
+    "essentials",
+    "kit",
     "yeoman-generator"
   ],
   "dependencies": {
@@ -41,7 +45,6 @@
       "mocha": true
     }
   },
-  "repository": "/generator-flask-essentials-kit",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
