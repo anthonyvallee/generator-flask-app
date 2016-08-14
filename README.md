@@ -1,4 +1,4 @@
-# generator-flask-essentials-kit [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# Flask Essentials Kit Generator
 > 
 
 ## Installation
@@ -7,7 +7,10 @@ First, install [Yeoman](http://yeoman.io) and generator-flask-essentials-kit usi
 
 ```bash
 npm install -g yo
-npm install -g generator-flask-essentials-kit
+git clone https://github.com/anthonyvallee/generator-flask-essentials-kit.git
+cd ./generator-flask-essentials-kit
+npm link
+
 ```
 
 Then generate your new project:
@@ -16,21 +19,6 @@ Then generate your new project:
 yo flask-essentials-kit
 ```
 
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
-
 ## License
 
-Apache-2.0 © [Anthony Vallee]()
-
-
-[npm-image]: https://badge.fury.io/js/generator-flask-essentials-kit.svg
-[npm-url]: https://npmjs.org/package/generator-flask-essentials-kit
-[travis-image]: https://travis-ci.org//generator-flask-essentials-kit.svg?branch=master
-[travis-url]: https://travis-ci.org//generator-flask-essentials-kit
-[daviddm-image]: https://david-dm.org//generator-flask-essentials-kit.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//generator-flask-essentials-kit
+LGPL-3.0 © [Anthony Vallee](https://github.com/anthonyvallee)
