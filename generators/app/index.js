@@ -57,6 +57,7 @@ module.exports = yeoman.Base.extend({
       { templatePath: 'app/templates/styles/app.jinja2', destinationPath: `${ this.props.appName }/templates/styles/${ this.props.appName }.jinja2`, template: false },
       { templatePath: 'config/*', destinationPath: 'config', template: true },
       { templatePath: 'instance/*', destinationPath: 'instance', template: true },
+      { templatePath: 'lib/*', destinationPath: 'instance', template: true },
       { templatePath: 'test/app/*', destinationPath: `tests/${ this.props.appName }`, template: false },
       { templatePath: 'tests/lib/*', destinationPath: 'tests/lib', template: false },
       { templatePath: '.gitignore', destinationPath: '.gitignore', template: true },
